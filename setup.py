@@ -26,7 +26,7 @@ version = open('.VERSION').read()
 
 
 setup(
-    name='''dummy-clicli''',
+    name='''dummyclicli''',
     version=version,
     description='''dummy cli''',
     long_description=readme + '\n\n' + history,
@@ -34,18 +34,18 @@ setup(
     author_email='''jonavilders@gmail.com''',
     url='''https://github.com/jvilders/Dummy-cli.git''',
     packages=find_packages(where='.', exclude=('tests', 'hooks', '_CI*')),
-    package_dir={'''dummy-clicli''':
-                 '''dummy-clicli'''},
+    package_dir={'''dummyclicli''':
+                 '''dummyclicli'''},
     include_package_data=True,
     install_requires=requirements,
     license='MIT',
     zip_safe=False,
-    keywords='''dummy-clicli cli''',
+    keywords='''dummyclicli cli''',
     entry_points = {
                    'console_scripts': [
                        # enable this to automatically generate a script in /usr/local/bin called myscript that points to your
-                       #  dummy-clicli.dummy-clicli:main method
-                       # 'myscript = dummy-clicli.dummy-clicli:main'
+                       #  dummyclicli.dummyclicli:main method
+                       'dummycli = dummyclicli.dummyclicli:main'
                    ]},
     classifiers=[
         'Development Status :: 1 - Planning',

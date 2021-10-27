@@ -1,9 +1,9 @@
-.. dummy-clicli documentation master file, created by
+.. dummyclicli documentation master file, created by
    sphinx-quickstart on 2021-10-27.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to dummy-clicli's documentation!
+Welcome to dummyclicli's documentation!
 ========================================
 
 Contents:

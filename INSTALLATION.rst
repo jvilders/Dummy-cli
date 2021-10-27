@@ -4,17 +4,17 @@ Installation
 
 At the command line::
 
-    $ pip install dummy-clicli
+    $ pip install dummyclicli
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv dummy-clicli
-    $ pip install dummy-clicli
+    $ mkvirtualenv dummyclicli
+    $ pip install dummyclicli
 
 Or, if you are using pipenv::
 
-    $ pipenv install dummy-clicli
+    $ pipenv install dummyclicli
 
 Or, if you are using pipx::
 
-    $ pipx install dummy-clicli
+    $ pipx install dummyclicli

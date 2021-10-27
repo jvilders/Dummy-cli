@@ -16,7 +16,7 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `dummy-clicli` for local development.
+Ready to contribute? Here's how to set up `dummyclicli` for local development.
 Using of pipenv is highly recommended.
 
 1. Clone your fork locally::
@@ -25,7 +25,7 @@ Using of pipenv is highly recommended.
 
 2. Install your local copy into a virtualenv. Assuming you have pipenv installed, this is how you set up your clone for local development::
 
-    $ cd dummy-clicli/
+    $ cd dummyclicli/
     $ pipenv install --ignore-pipfile
 
 3. Create a branch for local development::

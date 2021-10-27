@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# File: test_dummy-clicli.py
+# File: test_dummyclicli.py
 #
 # Copyright 2021 Jona Vilders
 #
@@ -24,9 +24,9 @@
 #
 
 """
-test_dummy-clicli
+test_dummyclicli
 ----------------------------------
-Tests for `dummy-clicli` module.
+Tests for `dummyclicli` module.
 
 .. _Google Python Style Guide:
    http://google.github.io/styleguide/pyguide.html

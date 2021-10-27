@@ -3,7 +3,7 @@ Usage
 =====
 
 
-To develop on dummy-clicli:
+To develop on dummyclicli:
 
 .. code-block:: bash
 
@@ -34,9 +34,9 @@ To develop on dummy-clicli:
     _CI/scripts/document.py
 
 
-To use dummy-clicli in a project:
+To use dummyclicli in a project:
 
 .. code-block:: python
 
-    from dummy-clicli import Dummy-Clicli
-    dummy-clicli = Dummy-Clicli()
+    from dummyclicli import Dummy-Clicli
+    dummyclicli = Dummy-Clicli()

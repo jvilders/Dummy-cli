@@ -1,11 +1,11 @@
 ============
-dummy-clicli
+dummyclicli
 ============
 
 dummy cli
 
 
-* Documentation: https://dummy-clicli.readthedocs.org/en/latest
+* Documentation: https://dummyclicli.readthedocs.org/en/latest
 
 
 Development Workflow

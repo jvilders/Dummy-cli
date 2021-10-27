@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# File: dummy-clicliexceptions.py
+# File: __init__.py
 #
 # Copyright 2021 Jona Vilders
 #
@@ -24,19 +24,23 @@
 #
 
 """
-Custom exception code for dummy-clicli.
+dummyclicli package.
+
+Import all parts from dummyclicli here
 
 .. _Google Python Style Guide:
    http://google.github.io/styleguide/pyguide.html
-
 """
+from ._version import __version__
 
 __author__ = '''Jona Vilders <jonavilders@gmail.com>'''
 __docformat__ = '''google'''
 __date__ = '''27-10-2021'''
 __copyright__ = '''Copyright 2021, Jona Vilders'''
-__credits__ = ["Jona Vilders"]
 __license__ = '''MIT'''
 __maintainer__ = '''Jona Vilders'''
 __email__ = '''<jonavilders@gmail.com>'''
 __status__ = '''Development'''  # "Prototype", "Development", "Production".
+
+# This is to 'use' the module(s), so lint doesn't complain
+assert __version__

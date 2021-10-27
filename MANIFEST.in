@@ -9,10 +9,10 @@ include Pipfile
 include Pipfile.lock
 include requirements.txt
 include dev-requirements.txt
-include dummy-clicli/.VERSION
+include dummyclicli/.VERSION
 
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
 
 recursive-include docs *.rst conf.py Makefile
-recursive-include dummy-clicli *
+recursive-include dummyclicli *

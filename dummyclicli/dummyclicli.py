@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# File: dummy-clicli.py
+# File: dummyclicli.py
 #
 # Copyright 2021 Jona Vilders
 #
@@ -24,7 +24,7 @@
 #
 
 """
-Main code for dummy-clicli.
+Main code for dummyclicli.
 
 .. _Google Python Style Guide:
    http://google.github.io/styleguide/pyguide.html
@@ -36,6 +36,7 @@ import logging.config
 import json
 import argparse
 import coloredlogs
+from dummylibrarylib.dummylibrarylib import WhoAmI
 
 
 __author__ = '''Jona Vilders <jonavilders@gmail.com>'''
@@ -50,7 +51,7 @@ __status__ = '''Development'''  # "Prototype", "Development", "Production".
 
 
 # This is the main prefix used for logging
-LOGGER_BASENAME = '''dummy-clicli'''
+LOGGER_BASENAME = '''dummyclicli'''
 LOGGER = logging.getLogger(LOGGER_BASENAME)
 LOGGER.addHandler(logging.NullHandler())
 
@@ -81,21 +82,6 @@ def get_arguments():
                                  'error',
                                  'critical'])
 
-    # examples:
-    parser.add_argument('--long', '-s',
-                        choices=['a', 'b'],
-                        dest='parameter_long',
-                        action='store',
-                        help='Describe the parameter here',
-                        default='a',
-                        type=str,
-                        required=True)
-    parser.add_argument('--feature',
-                        dest='feature',
-                        action='store_true')
-    parser.add_argument('--no-feature',
-                        dest='feature',
-                        action='store_false')
     args = parser.parse_args()
     return args
 
@@ -139,6 +125,8 @@ def main():
     args = get_arguments()
     setup_logging(args.log_level, args.logger_config)
     # Main code goes here
+    LOGGER.info("Checking who I am.")
+    LOGGER.debug(f"{WhoAmI().name}")
 
 
 if __name__ == '__main__':

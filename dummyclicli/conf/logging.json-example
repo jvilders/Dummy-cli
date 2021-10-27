@@ -17,7 +17,7 @@
             "class": "logging.handlers.RotatingFileHandler",
             "level": "DEBUG",
             "formatter": "simple",
-            "filename": "/var/log/dummy-clicli.log",
+            "filename": "/var/log/dummyclicli.log",
             "maxBytes": "10485760",
             "backupCount": "10",
             "encoding": "utf8"
